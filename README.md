@@ -194,7 +194,7 @@ db.getCollection('EmployeeDetail').update({
 ```
 // Remove field
 db.getCollection('EmployeeDetail').update({
-  "Moblie": "123"
+  "Mobile": "123"
 }, {
   $unset: {
     Age: 1
